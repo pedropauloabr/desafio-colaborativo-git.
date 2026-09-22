@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+header{
+    background-color: #F3BD68;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative ;
+    width: 100%;
+    top: 0;
+    line-height: 60px;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0367A6;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar a:link, a:visited{
+    text-decoration: none;
+    color: #0367A6;
+    font-size: 1.5rem;
+    padding: 22px;
+}
+
+.navbar a:hover, a:active{
+    background-color: #D97904;
+}
